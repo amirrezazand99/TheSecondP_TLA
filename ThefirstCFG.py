@@ -77,7 +77,7 @@ def main_process(List):
                     List_of_CFG.append(local_str)
                     for m in range(0, number):
                         local_str = ""
-                        if len(local_var[3]>1):
+                        if (len(local_var[3]) > 1):
                             local_str = local_str.join(str(
                                 "(" + local_var[0] + str(local_var[3][0]) + "q" + str(m) + ")" + "(" + "q" + str(m) + str(
                                     local_var[3][1]) + "qf" + ")"))
